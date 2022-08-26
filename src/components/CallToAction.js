@@ -5,7 +5,7 @@ export default function CallToAction() {
     <div className="mb-0">
       <div className="bg-teal-50">
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:pt-20">
-          <div className="max-w-xl md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+          <div className="max-w-xl md:mx-auto text-center lg:max-w-2xl mb-6">
             <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
               <span className="relative inline-block">
                 <svg
@@ -30,13 +30,14 @@ export default function CallToAction() {
                     height="24"
                   />
                 </svg>
-                <span className="relative">The</span>
+                <span className="relative">You</span>
               </span>{' '}
-              quick, brown fox jumps over a lazy dog
+              will love using clixpesa
             </h2>
             <p className="text-base text-gray-700 md:text-lg">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque rem aperiam, eaque ipsa quae.
+              We're building it with you, your people and your money in mind.
+              <br className="hidden md:block" />
+              Don't be left behind.
             </p>
           </div>
           <div className="relative max-w-2xl sm:mx-auto sm:max-w-xl md:max-w-2xl sm:text-center">
@@ -55,8 +56,8 @@ export default function CallToAction() {
               </button>
             </form>
             <p className="max-w-md text-xs font-thin tracking-wide text-gray-500 sm:text-sm sm:mx-auto">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium.
+              Your phonenumber will not be shared to anyone and shall only be
+              used for the purposes of notifying you when our platform is ready. cheers!
             </p>
           </div>
         </div>
@@ -66,19 +67,11 @@ export default function CallToAction() {
         <div className="relative grid mx-auto overflow-hidden bg-white divide-y rounded shadow sm:divide-y-0 sm:divide-x sm:max-w-screen-sm sm:grid-cols-3 lg:max-w-screen-md">
           <div className="inline-block p-8 text-center">
             <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-teal-100">
-              <svg
-                className="w-10 h-10 text-teal-600"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-teal-600">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z" />
               </svg>
+
             </div>
             <p className="font-bold tracking-wide text-gray-800">
               Make it better
@@ -86,42 +79,24 @@ export default function CallToAction() {
           </div>
           <div className="inline-block p-8 text-center">
             <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-teal-100">
-              <svg
-                className="w-10 h-10 text-teal-600"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-teal-600">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M15.042 21.672L13.684 16.6m0 0l-2.51 2.225.569-9.47 5.227 7.917-3.286-.672zM12 2.25V4.5m5.834.166l-1.591 1.591M20.25 10.5H18M7.757 14.743l-1.59 1.59M6 10.5H3.75m4.007-4.243l-1.59-1.59" />
               </svg>
+
             </div>
             <p className="font-bold tracking-wide text-gray-800">
-              Do it faster
+              Make it simple
             </p>
           </div>
           <div className="inline-block p-8 text-center">
             <div className="flex items-center justify-center w-12 h-12 mx-auto mb-4 rounded-full bg-teal-100">
-              <svg
-                className="w-10 h-10 text-teal-600"
-                stroke="currentColor"
-                viewBox="0 0 52 52"
-              >
-                <polygon
-                  strokeWidth="3"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  fill="none"
-                  points="29 13 14 29 25 29 23 39 38 23 27 23"
-                />
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 text-teal-600">
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75L11.25 15 15 9.75m-3-7.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.749c0 5.592 3.824 10.29 9 11.623 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.571-.598-3.751h-.152c-3.196 0-6.1-1.248-8.25-3.285z" />
               </svg>
+
             </div>
             <p className="font-bold tracking-wide text-gray-800">
-              Working harder
+              Keep it secure
             </p>
           </div>
         </div>
