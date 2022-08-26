@@ -1,11 +1,20 @@
 import * as React from "react"
 import Layout from "../components/Layout"
+import Hero from "../components/Hero"
+import Features from "../components/Features"
 import Seo from "../components/seo"
+import Content from "../components/Content"
+import LatestBlogs from "../components/LatestBlogs"
+import CallToAction from "../components/CallToAction"
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
-    <h1>Hello There</h1>
+    <Hero />
+    <Features />
+    <Content />
+    <LatestBlogs />
+    <CallToAction />
   </Layout>
 )
 
