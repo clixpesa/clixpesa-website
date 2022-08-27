@@ -1,4 +1,8 @@
 import React from 'react'
+import ChamaImg from '../images/pexels-chama-3810756.jpg'
+import AfroMoneyImg from '../images/pexels-nyau-mimi.jpg'
+import BodaaImg from '../images/bodaa.jpg'
+
 
 export default function LatestBlogs() {
   return (
@@ -42,25 +46,25 @@ export default function LatestBlogs() {
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded-t-3xl">
           <a href="/" aria-label="Article">
             <img
-              src="https://images.pexels.com/photos/932638/pexels-photo-932638.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              src={ChamaImg}
               className="object-cover w-full h-56 rounded"
-              alt=""
+              alt="chama-discussing"
             />
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              13 Jul 2020
+              23 Aug 2022
             </p>
             <a
               href="/"
               aria-label="Article"
               className="inline-block mb-3 text-teal-700 transition-colors duration-200 hover:text-teal-500"
             >
-              <p className="text-2xl font-bold leading-5">Diving to the deep</p>
+              <p className="text-2xl font-bold leading-5">Chamas on the blockchain</p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+              A Chama is a “rotating savings and credit association” (ROSCA). In Kenya, many participate in one of
+              these groups - typically made up of family or friends.
             </p>
             <div className="flex space-x-4">
               <a
@@ -75,7 +79,7 @@ export default function LatestBlogs() {
                   </svg>
 
                 </div>
-                <p className="font-semibold">7.4K</p>
+                <p className="font-semibold">1.4K</p>
               </a>
               <a
                 href="/"
@@ -107,7 +111,7 @@ export default function LatestBlogs() {
                     />
                   </svg>
                 </div>
-                <p className="font-semibold">81</p>
+                <p className="font-semibold">77</p>
               </a>
             </div>
           </div>
@@ -115,25 +119,25 @@ export default function LatestBlogs() {
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded-t-3xl">
           <a href="/" aria-label="Article">
             <img
-              src="https://images.pexels.com/photos/1576937/pexels-photo-1576937.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              src={AfroMoneyImg}
               className="object-cover w-full h-56 rounded"
               alt=""
             />
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              4 Nov 2020
+              11 Aug 2022
             </p>
             <a
               href="/"
               aria-label="Article"
               className="inline-block mb-3 text-teal-700 transition-colors duration-200 hover:text-teal-500"
             >
-              <p className="text-2xl font-bold leading-5">Conquer the World</p>
+              <p className="text-2xl font-bold leading-5">DeFi and African money</p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+              The finance sector has enjoyed and will continue to enjoy the benefits of blockchain technology.
+              Safe to say this is “The First Mover Advantage”
             </p>
             <div className="flex space-x-4">
               <a
@@ -141,14 +145,14 @@ export default function LatestBlogs() {
                 aria-label="Likes"
                 className="flex items-start text-teal-700 transition-colors duration-200 hover:text-teal-500 group"
               >
-                <div className="mr-1">
+                <div className="mr-2">
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor"
                     className="w-6 h-6 text-teal-700 transition-colors duration-200 group-hover:text-teal-500">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                   </svg>
 
                 </div>
-                <p className="font-semibold">7.4K</p>
+                <p className="font-semibold">1.7K</p>
               </a>
               <a
                 href="/"
@@ -188,14 +192,14 @@ export default function LatestBlogs() {
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded-t-3xl">
           <a href="/" aria-label="Article">
             <img
-              src="https://images.pexels.com/photos/2123755/pexels-photo-2123755.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              src={BodaaImg}
               className="object-cover w-full h-56 rounded"
               alt=""
             />
           </a>
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">
-              28 Dec 2020
+              28 Jul 2022
             </p>
             <a
               href="/"
@@ -203,12 +207,12 @@ export default function LatestBlogs() {
               className="inline-block mb-3 text-teal-700 transition-colors duration-200 hover:text-teal-500"
             >
               <p className="text-2xl font-bold leading-5">
-                Explore the beautiful
+                DeFi loans for BodaBoda riders
               </p>
             </a>
             <p className="mb-4 text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit sed quia
-              consequuntur magni voluptatem doloremque.
+              Despite the high prices of buying a bike through hire purchase,
+              the arrangement is wildly popular in the bodaboda industry.
             </p>
             <div className="flex space-x-4">
               <a
@@ -223,7 +227,7 @@ export default function LatestBlogs() {
                   </svg>
 
                 </div>
-                <p className="font-semibold">7.4K</p>
+                <p className="font-semibold">1.1K</p>
               </a>
               <a
                 href="/"
@@ -255,7 +259,7 @@ export default function LatestBlogs() {
                     />
                   </svg>
                 </div>
-                <p className="font-semibold">81</p>
+                <p className="font-semibold">121</p>
               </a>
             </div>
           </div>
