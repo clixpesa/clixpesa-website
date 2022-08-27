@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import LogoReversed from '../images/logo-reversed.svg'
 
 export default function Footer() {
   return (
@@ -13,30 +14,13 @@ export default function Footer() {
               title="Clixpesa"
               className="inline-flex items-center"
             >
-              <svg
-                className="w-8 text-deep-purple-accent-400"
-                viewBox="0 0 24 24"
-                strokeLinejoin="round"
-                strokeWidth="2"
-                strokeLinecap="round"
-                strokeMiterlimit="10"
-                stroke="currentColor"
-                fill="none"
-              >
-                <rect x="3" y="1" width="7" height="12" />
-                <rect x="3" y="17" width="7" height="6" />
-                <rect x="14" y="1" width="7" height="6" />
-                <rect x="14" y="11" width="7" height="12" />
-              </svg>
-              <span className="ml-2 text-xl font-bold tracking-wide text-teal-50 uppercase">
-                Clixpesa
-              </span>
+              <img src={LogoReversed} alt='clixpesa' className='h-8 w-auto' />
             </a>
             <div className="mt-6 lg:max-w-sm">
               <p className="text-sm text-stone-200">
-                a borderless, customer-centric, all in one platform that
+                A borderless, customer-centric, all in one platform that
                 feels and looks personal and familiar, to serve as
-                a trusted companion for financial resilience
+                a trusted companion for financial resilience.
               </p>
             </div>
           </div>
@@ -83,8 +67,7 @@ export default function Footer() {
               </Link>
             </div>
             <p className="mt-4 text-sm text-stone-200 max-w-sm">
-              Bacon ipsum dolor amet short ribs pig sausage prosciutto chicken
-              spare ribs salami.
+              Follow us on our social platforms and get the latest updates from our team.
             </p>
           </div>
         </div>
