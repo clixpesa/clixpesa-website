@@ -57,7 +57,7 @@ export default function CallToAction() {
             </form>
             <p className="max-w-md text-xs font-thin tracking-wide text-gray-500 sm:text-sm sm:mx-auto">
               Your phonenumber will not be shared to anyone and shall only be
-              used for the purposes of notifying you when our platform is ready. cheers!
+              used for the purposes of notifying you when our platform is ready. Cheers!
             </p>
           </div>
         </div>
