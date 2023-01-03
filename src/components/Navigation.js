@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from "gatsby";
+import React from "react"
+import { Link } from "gatsby"
 
 export default function Navigation() {
   return (
@@ -53,6 +53,16 @@ export default function Navigation() {
             className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-600"
           >
             FAQs
+          </Link>
+        </li>
+        <li>
+          <Link
+            to="/contact"
+            aria-label="frequently asked qs"
+            title="Faqs"
+            className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-600"
+          >
+            Contact Us
           </Link>
         </li>
       </ul>
