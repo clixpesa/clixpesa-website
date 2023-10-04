@@ -6,8 +6,7 @@ include_once('config.php');
 header("Access-Control-Allow-Origin: *");
 $rest_json = file_get_contents("php://input");
 $_POST = json_decode($rest_json, true);
-
-if( empty($_POST['firstName']) && empty($_POST['email']) ) {
+if( empty($_POST['message']) && empty($_POST['email']) ) {
     echo json_encode(
         [
            "sent" => false,
@@ -20,9 +19,9 @@ if( empty($_POST['firstName']) && empty($_POST['email']) ) {
 if ($_POST){
     //@important: Please change this before using
     http_response_code(200);
-    $subject = 'Contact from: ' . $_POST['firstName'];
+    $subject = 'Web Contact: ' . $_POST['subject'];
     $from = $_POST['email'];
-    $message = $_POST['msg'];       
+    $message = $_POST['message'] . `\nMy contact: `. $_POST['phone'] ;       
     //Actual sending email
     $sendEmail = new Sender($adminEmail, $from, $subject, $message);
     $sendEmail->send();
