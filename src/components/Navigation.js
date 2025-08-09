@@ -27,7 +27,7 @@ export default function Navigation() {
         </li>
         <li>
           <Link
-            href="/"
+            href="/about-us"
             aria-label="about us"
             title="about us"
             className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-600"
@@ -72,7 +72,7 @@ export default function Navigation() {
             to="/"
             className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-700 hover:bg-teal-500 focus:shadow-outline focus:outline-none"
           >
-            Notify Me
+            Get our App
           </Link>
         </li>
       </ul>

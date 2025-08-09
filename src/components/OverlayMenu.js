@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import { Link } from "gatsby";
-import Logo from '../images/logo.svg'
+import React, { useState } from "react"
+import { Link } from "gatsby"
+import Logo from "../images/logo.svg"
 
 export default function OverlayMenu() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
     <div className="lg:hidden">
@@ -39,7 +39,7 @@ export default function OverlayMenu() {
                   title="Company"
                   className="inline-flex items-center"
                 >
-                  <img src={Logo} alt="clixpesa" className='h-8 w-auto' />
+                  <img src={Logo} alt="clixpesa" className="h-8 w-auto" />
                 </a>
               </div>
               <div>
@@ -92,7 +92,7 @@ export default function OverlayMenu() {
                 </li>
                 <li>
                   <Link
-                    to="/"
+                    to="/about-us"
                     aria-label="About us"
                     title="About us"
                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-600"
