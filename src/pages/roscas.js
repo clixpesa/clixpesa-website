@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 import Seo from "../components/seo"
 
 export default function RoscasPage({ data }) {
-  const html = data.file?.childMarkdownRemark?.html
+  const { html } = data.file?.childMarkdownRemark
   return (
     <Layout>
       <Seo
