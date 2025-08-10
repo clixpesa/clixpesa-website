@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 export default function Navigation() {
   return (
     <>
-      <ul className="flex items-center hidden space-x-8 lg:flex">
+      <ul className="hidden lg:flex items-center space-x-8">
         <li>
           <Link
             to="/"
@@ -66,7 +66,7 @@ export default function Navigation() {
           </Link>
         </li>
       </ul>
-      <ul className="flex items-center hidden space-x-8 lg:flex">
+      <ul className="hidden lg:flex items-center space-x-8">
         <li>
           <a
             href="https://play.google.com/store/apps/details?id=com.clixpesa.app"

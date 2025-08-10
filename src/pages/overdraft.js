@@ -3,11 +3,14 @@ import { graphql } from "gatsby"
 import Layout from "../components/Layout"
 import Seo from "../components/seo"
 
-export default function SavingsPage({ data }) {
+export default function OverdraftPage({ data }) {
   const { html } = data.file?.childMarkdownRemark
   return (
     <Layout>
-      <Seo title="Clixpesa Savings" description="Earn yield with your stables daily" />
+      <Seo
+        title="Clixpesa Overdraft"
+        description="Finalize taht transaction even on low balances"
+      />
       <div className="bg-teal-50 min-h-screen py-12">
         <div className="max-w-3xl mx-auto px-4">
           {html ? (
@@ -26,7 +29,7 @@ export default function SavingsPage({ data }) {
 
 export const pageQuery = graphql`
   query {
-    file(relativePath: { eq: "savings.md" }) {
+    file(relativePath: { eq: "overdraft.md" }) {
       childMarkdownRemark {
         html
         frontmatter {

@@ -2,6 +2,7 @@ import React from "react"
 import ChamaImg from "../images/pexels-chama-3810756.jpg"
 import AfroMoneyImg from "../images/pexels-nyau-mimi.jpg"
 import BodaaImg from "../images/bodaa.jpg"
+import { Link } from "gatsby"
 
 export default function LatestBlogs() {
   return (
@@ -50,7 +51,7 @@ export default function LatestBlogs() {
             />
           </a>
           <div className="py-5">
-            <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">23 Aug 2022</p>
+            <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">23 Jul 2025</p>
             <a
               href="/"
               aria-label="Article"
@@ -63,6 +64,13 @@ export default function LatestBlogs() {
               participate in one of these groups - typically made up of family or friends.
             </p>
             <div className="flex space-x-4">
+              <Link
+                to="/savings"
+                aria-label="Read More"
+                className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
+              >
+                Read more
+              </Link>
               <a
                 href="/"
                 aria-label="Likes"
@@ -86,38 +94,6 @@ export default function LatestBlogs() {
                 </div>
                 <p className="font-semibold">1.4K</p>
               </a>
-              <a
-                href="/"
-                aria-label="Comments"
-                className="flex items-start text-teal-700 transition-colors duration-200 hover:text-teal-500 group"
-              >
-                <div className="mr-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    stroke="currentColor"
-                    className="w-5 h-5 text-teal-700 transition-colors duration-200 group-hover:text-teal-500"
-                  >
-                    <polyline
-                      points="23 5 23 18 19 18 19 22 13 18 12 18"
-                      fill="none"
-                      strokeMiterlimit="10"
-                    />
-                    <polygon
-                      points="19 2 1 2 1 14 5 14 5 19 12 14 19 14 19 2"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeMiterlimit="10"
-                    />
-                  </svg>
-                </div>
-                <p className="font-semibold">77</p>
-              </a>
             </div>
           </div>
         </div>
@@ -126,7 +102,7 @@ export default function LatestBlogs() {
             <img src={AfroMoneyImg} className="object-cover w-full h-56 rounded" alt="" />
           </a>
           <div className="py-5">
-            <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">11 Aug 2022</p>
+            <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">11 Jul 2025</p>
             <a
               href="/"
               aria-label="Article"
@@ -139,6 +115,13 @@ export default function LatestBlogs() {
               technology. Safe to say this is “The First Mover Advantage”
             </p>
             <div className="flex space-x-4">
+              <Link
+                to="/"
+                aria-label="Read More"
+                className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
+              >
+                Read more
+              </Link>
               <a
                 href="/"
                 aria-label="Likes"
@@ -162,38 +145,6 @@ export default function LatestBlogs() {
                 </div>
                 <p className="font-semibold">1.7K</p>
               </a>
-              <a
-                href="/"
-                aria-label="Comments"
-                className="flex items-start text-teal-700 transition-colors duration-200 hover:text-teal-500 group"
-              >
-                <div className="mr-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    stroke="currentColor"
-                    className="w-5 h-5 text-teal-700 transition-colors duration-200 group-hover:text-teal-700"
-                  >
-                    <polyline
-                      points="23 5 23 18 19 18 19 22 13 18 12 18"
-                      fill="none"
-                      strokeMiterlimit="10"
-                    />
-                    <polygon
-                      points="19 2 1 2 1 14 5 14 5 19 12 14 19 14 19 2"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeMiterlimit="10"
-                    />
-                  </svg>
-                </div>
-                <p className="font-semibold">81</p>
-              </a>
             </div>
           </div>
         </div>
@@ -202,19 +153,26 @@ export default function LatestBlogs() {
             <img src={BodaaImg} className="object-cover w-full h-56 rounded" alt="" />
           </a>
           <div className="py-5">
-            <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">28 Jul 2022</p>
+            <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">28 Jun 2025</p>
             <a
               href="/"
               aria-label="Article"
               className="inline-block mb-3 text-teal-700 transition-colors duration-200 hover:text-teal-500"
             >
-              <p className="text-2xl font-bold leading-5">DeFi loans for BodaBoda riders</p>
+              <p className="text-2xl font-bold leading-5">Digital loans for the last mile</p>
             </a>
             <p className="mb-4 text-gray-700">
               Despite the high prices of buying a bike through hire purchase, the arrangement is
               wildly popular in the bodaboda industry.
             </p>
             <div className="flex space-x-4">
+              <Link
+                to="/"
+                aria-label="Read More"
+                className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
+              >
+                Read more
+              </Link>
               <a
                 href="/"
                 aria-label="Likes"
@@ -237,38 +195,6 @@ export default function LatestBlogs() {
                   </svg>
                 </div>
                 <p className="font-semibold">1.1K</p>
-              </a>
-              <a
-                href="/"
-                aria-label="Comments"
-                className="flex items-start text-teal-700 transition-colors duration-200 hover:text-teal-500 group"
-              >
-                <div className="mr-2">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    stroke="currentColor"
-                    className="w-5 h-5 text-teal-700 transition-colors duration-200 group-hover:text-teal-500"
-                  >
-                    <polyline
-                      points="23 5 23 18 19 18 19 22 13 18 12 18"
-                      fill="none"
-                      strokeMiterlimit="10"
-                    />
-                    <polygon
-                      points="19 2 1 2 1 14 5 14 5 19 12 14 19 14 19 2"
-                      fill="none"
-                      stroke="currentColor"
-                      strokeMiterlimit="10"
-                    />
-                  </svg>
-                </div>
-                <p className="font-semibold">121</p>
               </a>
             </div>
           </div>
