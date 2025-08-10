@@ -22,7 +22,7 @@ export default function Footer() {
             <span className="text-base font-semibold tracking-wide text-teal-50">Follow us!</span>
             <div className="flex items-center mt-1 space-x-3">
               <Link
-                to="/"
+                to="https://x.com/clixpesa"
                 className="text-stone-200 transition-colors duration-300 hover:text-teal-200"
               >
                 <svg
@@ -40,7 +40,7 @@ export default function Footer() {
                 </svg>
               </Link>
               <Link
-                to="/"
+                to="https://instagram.com/clixpesa"
                 className="text-stone-200 transition-colors duration-300 hover:text-teal-200"
               >
                 <svg
@@ -60,7 +60,7 @@ export default function Footer() {
                 </svg>
               </Link>
               <Link
-                href="/"
+                href="https://github.com/clixpesa"
                 className="text-stone-200 transition-colors duration-300 hover:text-teal-200"
               >
                 <svg
@@ -78,7 +78,7 @@ export default function Footer() {
                 </svg>
               </Link>
               <Link
-                to="/"
+                to="https://facebook.com/clixpesa"
                 className="text-stone-200 transition-colors duration-300 hover:text-teal-200"
               >
                 <svg
@@ -96,7 +96,7 @@ export default function Footer() {
                 </svg>
               </Link>
               <Link
-                to="/"
+                to="https://youtube.com/channel/UC98uMV115pyUPSs1ADl2uqg"
                 className="text-stone-200 transition-colors duration-300 hover:text-teal-200"
               >
                 <svg
@@ -114,24 +114,6 @@ export default function Footer() {
                   <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon>
                 </svg>
               </Link>
-              <Link
-                to="/"
-                className="text-stone-200 transition-colors duration-300 hover:text-teal-200"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  viewBox="0 0 24 24"
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path d="M21 2H3v16h5v4l4-4h5l4-4V2zm-10 9V7m5 4V7"></path>
-                </svg>
-              </Link>
             </div>
             <p className="mt-4 text-sm text-stone-200 max-w-sm">
               Follow us on our social platforms and get the latest updates from our team.
@@ -140,7 +122,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col-reverse justify-between pt-5 pb-10 border-t lg:flex-row">
           <p className="text-md text-stone-200">
-            © Copyright 2024 Clixpesa Ltd. All rights reserved.
+            © Copyright 2025 Clixpesa Ltd. All rights reserved.
           </p>
           <ul className="flex flex-col mb-3 space-y-2 lg:mb-0 sm:space-y-0 sm:space-x-5 sm:flex-row">
             <li>

@@ -16,14 +16,14 @@ export default function Navigation() {
           </Link>
         </li>
         <li>
-          <Link
-            href="/"
+          <a
+            href="/#features"
             aria-label="key features"
             title="key features"
             className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-600"
           >
             Key Features
-          </Link>
+          </a>
         </li>
         <li>
           <Link
@@ -36,16 +36,16 @@ export default function Navigation() {
           </Link>
         </li>
         <li>
-          <Link
-            href="/"
+          <a
+            href="/#blogs"
             aria-label="our blog"
             title="our blog"
             className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-600"
           >
             Blog
-          </Link>
+          </a>
         </li>
-        <li>
+        {/*<li>
           <Link
             to="/"
             aria-label="frequently asked qs"
@@ -54,7 +54,7 @@ export default function Navigation() {
           >
             FAQs
           </Link>
-        </li>
+        </li>*/}
         <li>
           <Link
             to="/contact"
@@ -69,7 +69,7 @@ export default function Navigation() {
       <ul className="flex items-center hidden space-x-8 lg:flex">
         <li>
           <Link
-            to="/"
+            to="https://play.google.com/store/apps/details?id=com.clixpesa.app"
             className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-700 hover:bg-teal-500 focus:shadow-outline focus:outline-none"
           >
             Get our App
