@@ -62,7 +62,7 @@ export default function OverlayMenu() {
               <ul className="space-y-4">
                 <li>
                   <Link
-                    to="/"
+                    to="/#features"
                     aria-label="Key features"
                     title="Key features"
                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-600"
@@ -72,17 +72,7 @@ export default function OverlayMenu() {
                 </li>
                 <li>
                   <Link
-                    to="/"
-                    aria-label="about us"
-                    title="about us"
-                    className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-600"
-                  >
-                    About Us
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/"
+                    to="/#blogs"
                     aria-label="Product pricing"
                     title="Product pricing"
                     className="font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-teal-600"
@@ -102,12 +92,12 @@ export default function OverlayMenu() {
                 </li>
                 <li>
                   <Link
-                    to="/"
+                    to="https://play.google.com/store/apps/details?id=com.clixpesa.app"
                     className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-700 hover:bg-teal-500 focus:shadow-outline focus:outline-none"
-                    aria-label="notify me"
-                    title="Notify Me"
+                    aria-label="get our app"
+                    title="Get app"
                   >
-                    Notify Me
+                    Get our App
                   </Link>
                 </li>
               </ul>

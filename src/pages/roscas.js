@@ -32,6 +32,9 @@ export const pageQuery = graphql`
     file(relativePath: { eq: "roscas.md" }) {
       childMarkdownRemark {
         html
+        frontmatter {
+          title
+        }
       }
     }
   }

@@ -63,15 +63,15 @@ export default function Features() {
             <h6 className="mb-2 font-semibold leading-5">Enjoy near Zero fees</h6>
             <p className="mb-3 text-sm text-gray-900">
               Send money and crypto directly from your mobile phone to your friends and family at a
-              fraction of the current cost.
+              fraction of the current costs.
             </p>
           </div>
           <a
-            href="/"
+            href="https://play.google.com/store/apps/details?id=com.clixpesa.app"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
           >
-            Learn more
+            Get the app
           </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">

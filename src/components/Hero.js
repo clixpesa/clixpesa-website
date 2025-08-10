@@ -17,7 +17,7 @@ export default function Hero() {
   return (
     <div className="bg-teal-50">
       <div className="flex flex-col justify-between max-w-xl px-4 mx-auto lg:pt-8 lg:flex-row md:px-8 lg:max-w-screen-xl">
-        <div className="pt-16 mb-16 lg:mb-0 lg:pt-32 lg:max-w-lg lg:pr-5 md:px-8 text-center lg:text-left">
+        <div className="pt-16 mb-16 lg:mb-0 lg:pt-24 lg:max-w-lg lg:pr-5 md:px-8 text-center lg:text-left">
           <div className="max-w-xl mb-6">
             <div>
               <p className="inline-block px-4 py-px mb-4 text-xs font-semibold tracking-wider text-teal-800 uppercase rounded-full bg-teal-100">
