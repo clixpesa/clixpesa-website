@@ -68,12 +68,12 @@ export default function Navigation() {
       </ul>
       <ul className="flex items-center hidden space-x-8 lg:flex">
         <li>
-          <Link
-            to="https://play.google.com/store/apps/details?id=com.clixpesa.app"
+          <a
+            href="https://play.google.com/store/apps/details?id=com.clixpesa.app"
             className="inline-flex items-center justify-center h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-700 hover:bg-teal-500 focus:shadow-outline focus:outline-none"
           >
             Get our App
-          </Link>
+          </a>
         </li>
       </ul>
     </>

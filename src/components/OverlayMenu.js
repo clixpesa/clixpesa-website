@@ -91,14 +91,14 @@ export default function OverlayMenu() {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    to="https://play.google.com/store/apps/details?id=com.clixpesa.app"
+                  <a
+                    href="https://play.google.com/store/apps/details?id=com.clixpesa.app"
                     className="inline-flex items-center justify-center w-full h-12 px-6 font-medium tracking-wide text-white transition duration-200 rounded shadow-md bg-teal-700 hover:bg-teal-500 focus:shadow-outline focus:outline-none"
                     aria-label="get our app"
                     title="Get app"
                   >
                     Get our App
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </nav>

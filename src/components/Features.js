@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 export default function Features() {
   return (
@@ -92,19 +93,19 @@ export default function Features() {
                 />
               </svg>
             </div>
-            <h6 className="mb-2 font-semibold leading-5">Get interest on deposits</h6>
+            <h6 className="mb-2 font-semibold leading-5">Get interest on your savings</h6>
             <p className="mb-3 text-sm text-gray-900">
               Let your money and crypto work for you. Earn interest on your crypto and stablecoin
-              deposits.
+              savings.
             </p>
           </div>
-          <a
-            href="/"
+          <Link
+            to="/savings"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
           >
             Learn more
-          </a>
+          </Link>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
           <div>
@@ -127,15 +128,15 @@ export default function Features() {
             <h6 className="mb-2 font-semibold leading-5">Rewards and discounts</h6>
             <p className="mb-3 text-sm text-gray-900">
               A slice of heaven. Get notified on the best deals and offers and earn rewards on some
-              of your purchases.
+              of your transactions.
             </p>
           </div>
           <a
-            href="/"
+            href="https://play.google.com/store/apps/details?id=com.clixpesa.app"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
           >
-            Learn more
+            Get the app
           </a>
         </div>
         <div className="flex flex-col justify-between p-5 border rounded shadow-sm">
@@ -162,13 +163,13 @@ export default function Features() {
               personal impact.
             </p>
           </div>
-          <a
-            href="/"
+          <Link
+            to="/p2plending"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
           >
             Learn more
-          </a>
+          </Link>
         </div>
       </div>
     </div>

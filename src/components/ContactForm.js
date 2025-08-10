@@ -9,8 +9,7 @@ export default function ContactForm() {
     subject: "",
     message: "",
   }
-  const [{ email, phone, subject, message }, setContactState] =
-    useState(initialState)
+  const [{ email, phone, subject, message }, setContactState] = useState(initialState)
   const [status, setStatus] = useState({})
   const [open, setOpen] = useState(false)
 
@@ -33,7 +32,10 @@ export default function ContactForm() {
           setStatus({ error: true })
         }
       })
-      .catch(error => setStatus({ error: error.message }))
+      .catch(error => {
+        setStatus({ error: error.message })
+        setContactState({ ...initialState })
+      })
   }
 
   const onChange = e => {
@@ -45,7 +47,7 @@ export default function ContactForm() {
     console.log("This is done")
   }
 
-  console.log({ email, phone, subject, message })
+  console.log({ email, phone, subject, message, status })
   return (
     <>
       <section class="bg-teal-50">
@@ -54,23 +56,19 @@ export default function ContactForm() {
             Contact Us
           </h2>
           <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 sm:text-xl">
-            Got a technical issue? Want to send feedback about a beta feature?{" "}
-            <br />
+            Got a technical issue? Want to send feedback about a beta feature? <br />
             Need details about our RoadMap? <br /> Let us know.
           </p>
-          <form action="#" class="space-y-8">
-            <div class="grid grid-cols-3 gap-4 md:">
-              <div class="col-span-2">
-                <label
-                  for="email"
-                  class="block mb-2 text-sm font-medium text-gray-900"
-                >
+          <form action="#" className="space-y-8">
+            <div className="grid grid-cols-3 gap-4 md:">
+              <div className="col-span-2">
+                <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900">
                   Your email
                 </label>
                 <input
                   type="email"
                   id="email"
-                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                  className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
                   placeholder="name@clixpesa.com"
                   value={email}
                   name="email"
@@ -79,16 +77,13 @@ export default function ContactForm() {
                 />
               </div>
               <div>
-                <label
-                  for="phone"
-                  class="block mb-2 text-sm font-medium text-gray-900"
-                >
+                <label htmlFor="phone" className="block mb-2 text-sm font-medium text-gray-900">
                   Your phone
                 </label>
                 <input
                   type="tel"
                   id="phone"
-                  class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
+                  className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
                   placeholder="+254712345678"
                   value={phone}
                   name="phone"
@@ -97,16 +92,13 @@ export default function ContactForm() {
               </div>
             </div>
             <div>
-              <label
-                for="subject"
-                class="block mb-2 text-sm font-medium text-gray-900"
-              >
+              <label htmlFor="subject" className="block mb-2 text-sm font-medium text-gray-900">
                 Subject
               </label>
               <input
                 type="text"
                 id="subject"
-                class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 "
+                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
                 placeholder="Let us know how we can help you"
                 value={subject}
                 name="subject"
@@ -114,17 +106,14 @@ export default function ContactForm() {
                 required
               />
             </div>
-            <div class="sm:col-span-2">
-              <label
-                for="message"
-                class="block mb-2 text-sm font-medium text-gray-900"
-              >
+            <div className="sm:col-span-2">
+              <label htmlFor="message" className="block mb-2 text-sm font-medium text-gray-900">
                 Your message
               </label>
               <textarea
                 id="message"
                 rows="6"
-                class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
+                className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500"
                 placeholder="Leave a comment..."
                 value={message}
                 name="message"

@@ -1852,15 +1852,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@heroicons/react@npm:^2.1.1":
-  version: 2.2.0
-  resolution: "@heroicons/react@npm:2.2.0"
-  peerDependencies:
-    react: ">= 16 || ^19.0.0-rc"
-  checksum: 10/5bf8a3faa16f1566165bfaec2448ce3c2bd3e4f49e446ccf233f6aa63626155585eaf7e89f01fb4e8e92dfca3d7113b8c517c3b3c04036b9243c818595db3908
-  languageName: node
-  linkType: hard
-
 "@humanwhocodes/config-array@npm:^0.5.0":
   version: 0.5.0
   resolution: "@humanwhocodes/config-array@npm:0.5.0"
@@ -4945,7 +4936,6 @@ __metadata:
   resolution: "clixpesa-website@workspace:."
   dependencies:
     "@headlessui/react": "npm:^1.7.18"
-    "@heroicons/react": "npm:^2.1.1"
     "@tailwindcss/typography": "npm:^0.5.16"
     autoprefixer: "npm:^10.4.16"
     axios: "npm:^1.6.8"

@@ -20,7 +20,7 @@ export default function Content() {
       setCycleIdx(idx => (idx + 1) % cycleList.length)
     }, 1800)
     return () => clearInterval(interval)
-  }, [])
+  }, [cycleList.length])
 
   return (
     <div className="bg-teal-50">

@@ -1,10 +1,6 @@
-import React, { Fragment, useRef, useState } from "react"
+import React, { Fragment, useRef } from "react"
 import { Dialog, Transition } from "@headlessui/react"
-import { ExclamationCircleIcon } from "@heroicons/react/outline"
-
 export default function ContactModal(props) {
-  //const [open, setOpen] = useState(true)
-
   const cancelButtonRef = useRef(null)
 
   return (
@@ -42,23 +38,29 @@ export default function ContactModal(props) {
                 <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
                   <div className="sm:flex sm:items-start">
                     <div className="mx-auto flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-full bg-red-100 sm:mx-0 sm:h-10 sm:w-10">
-                      <ExclamationCircleIcon
-                        className="h-6 w-6 text-red-600"
-                        aria-hidden="true"
-                      />
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        strokeWidth={1.5}
+                        stroke="currentColor"
+                        className="size-6"
+                      >
+                        <path
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          d="M12 9v3.75m9-.75a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 3.75h.008v.008H12v-.008Z"
+                        />
+                      </svg>
                     </div>
                     <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
-                      <Dialog.Title
-                        as="h3"
-                        className="text-lg font-medium leading-6 text-gray-900"
-                      >
+                      <Dialog.Title as="h3" className="text-lg font-medium leading-6 text-gray-900">
                         Deactivate account
                       </Dialog.Title>
                       <div className="mt-2">
                         <p className="text-sm text-gray-500">
-                          Are you sure you want to deactivate your account? All
-                          of your data will be permanently removed. This action
-                          cannot be undone.
+                          Are you sure you want to deactivate your account? All of your data will be
+                          permanently removed. This action cannot be undone.
                         </p>
                       </div>
                     </div>
