@@ -43,7 +43,7 @@ export default function LatestBlogs() {
       </div>
       <div className="grid gap-5 lg:grid-cols-3 sm:max-w-sm sm:mx-auto lg:max-w-full">
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded-t-3xl">
-          <a href="/" aria-label="Article">
+          <a href="/blog/chamas-onchain" aria-label="Article">
             <img
               src={ChamaImg}
               className="object-cover w-full h-56 rounded"
@@ -98,7 +98,7 @@ export default function LatestBlogs() {
           </div>
         </div>
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded-t-3xl">
-          <a href="/" aria-label="Article">
+          <a href="/blog/african-defi" aria-label="Article">
             <img src={AfroMoneyImg} className="object-cover w-full h-56 rounded" alt="" />
           </a>
           <div className="py-5">
@@ -149,7 +149,7 @@ export default function LatestBlogs() {
           </div>
         </div>
         <div className="overflow-hidden transition-shadow duration-300 bg-white rounded-t-3xl">
-          <a href="/" aria-label="Article">
+          <a href="/blog/last-mile-loans" aria-label="Article">
             <img src={BodaaImg} className="object-cover w-full h-56 rounded" alt="" />
           </a>
           <div className="py-5">
