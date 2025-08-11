@@ -53,7 +53,7 @@ export default function LatestBlogs() {
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">23 Jul 2025</p>
             <a
-              href="/"
+              href="/blog/chamas-onchain"
               aria-label="Article"
               className="inline-block mb-3 text-teal-700 transition-colors duration-200 hover:text-teal-500"
             >
@@ -65,7 +65,7 @@ export default function LatestBlogs() {
             </p>
             <div className="flex space-x-4">
               <Link
-                to="/savings"
+                to="/blog/chamas-onchain"
                 aria-label="Read More"
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
               >
@@ -104,7 +104,7 @@ export default function LatestBlogs() {
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">11 Jul 2025</p>
             <a
-              href="/"
+              href="/blog/african-defi"
               aria-label="Article"
               className="inline-block mb-3 text-teal-700 transition-colors duration-200 hover:text-teal-500"
             >
@@ -116,7 +116,7 @@ export default function LatestBlogs() {
             </p>
             <div className="flex space-x-4">
               <Link
-                to="/"
+                to="/blog/african-defi"
                 aria-label="Read More"
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
               >
@@ -155,7 +155,7 @@ export default function LatestBlogs() {
           <div className="py-5">
             <p className="mb-2 text-xs font-semibold text-gray-600 uppercase">28 Jun 2025</p>
             <a
-              href="/"
+              href="/blog/last-mile-loans"
               aria-label="Article"
               className="inline-block mb-3 text-teal-700 transition-colors duration-200 hover:text-teal-500"
             >
@@ -167,7 +167,7 @@ export default function LatestBlogs() {
             </p>
             <div className="flex space-x-4">
               <Link
-                to="/"
+                to="/blog/last-mile-loans"
                 aria-label="Read More"
                 className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
               >

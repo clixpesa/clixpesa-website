@@ -1,3 +1,8 @@
+---
+title: Digital loans for the last mile
+slug: last-mile-loans
+---
+
 ## Digital loans for the last mile
 
 Chamas, also known as Rotating Savings and Credit Associations (RoSCAs), have long been a cornerstone of communal finance across many cultures. They empower groups of people to pool resources, save together, and provide mutual financial support.

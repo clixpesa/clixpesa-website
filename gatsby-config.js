@@ -14,13 +14,15 @@ module.exports = {
         path: `${__dirname}/src/images`,
         name: `content`,
         path: `${__dirname}/src/content`,
+        name: `blogs`,
+        path: `${__dirname}/src/blogs`,
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
-
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
+    "gatsby-plugin-mdx",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -28,9 +30,6 @@ module.exports = {
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/logosq.svg`, // This path is relative to the root of the site.
       },

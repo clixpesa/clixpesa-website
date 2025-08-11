@@ -1,0 +1,40 @@
+import React from "react"
+import { graphql } from "gatsby"
+import Layout from "../../components/Layout"
+import Seo from "../../components/seo"
+
+export default function BlogPost({ data }) {
+  const { html, frontmatter } = data.markdownRemark
+  return (
+    <Layout>
+      <Seo title={frontmatter.title} description={frontmatter.desc} />
+      <div className="bg-teal-50 min-h-screen py-12">
+        <div className="max-w-3xl mx-auto px-4">
+          {html ? (
+            <div
+              className="prose prose-teal max-w-none"
+              dangerouslySetInnerHTML={{ __html: html }}
+            />
+          ) : (
+            <div className="text-center text-gray-600">Content not found.</div>
+          )}
+        </div>
+      </div>
+    </Layout>
+  )
+}
+
+export const query = graphql`
+  query ($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
+      html
+      frontmatter {
+        slug
+        title
+        desc
+      }
+      excerpt
+    }
+  }
+`
