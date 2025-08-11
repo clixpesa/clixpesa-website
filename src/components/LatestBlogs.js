@@ -1,7 +1,7 @@
 import React from "react"
-import ChamaImg from "../images/pexels-chama-3810756.jpg"
-import AfroMoneyImg from "../images/pexels-nyau-mimi.jpg"
-import BodaaImg from "../images/bodaa.jpg"
+import ChamaImg from "../../static/images/chamaa.jpg"
+import AfroMoneyImg from "../../static/images/old-mimi.jpg"
+import BodaaImg from "../../static/images/bodaa.jpg"
 import { Link } from "gatsby"
 
 export default function LatestBlogs() {
@@ -71,7 +71,7 @@ export default function LatestBlogs() {
               >
                 Read more
               </Link>
-              <a
+              {/*<a
                 href="/"
                 aria-label="Likes"
                 className="flex items-start text-teal-700 transition-colors duration-200 hover:text-teal-500 group"
@@ -93,7 +93,7 @@ export default function LatestBlogs() {
                   </svg>
                 </div>
                 <p className="font-semibold">1.4K</p>
-              </a>
+              </a>*/}
             </div>
           </div>
         </div>
@@ -111,8 +111,8 @@ export default function LatestBlogs() {
               <p className="text-2xl font-bold leading-5">DeFi and African money</p>
             </a>
             <p className="mb-4 text-gray-700">
-              The finance sector has enjoyed and will continue to enjoy the benefits of blockchain
-              technology. Safe to say this is “The First Mover Advantage”
+              Where traditional financial systems are fragmented, expensive, or simply unavailable,
+              DeFi offers the promise for cheaper, better, accessible alternatives.
             </p>
             <div className="flex space-x-4">
               <Link
@@ -122,7 +122,7 @@ export default function LatestBlogs() {
               >
                 Read more
               </Link>
-              <a
+              {/*<a
                 href="/"
                 aria-label="Likes"
                 className="flex items-start text-teal-700 transition-colors duration-200 hover:text-teal-500 group"
@@ -144,7 +144,7 @@ export default function LatestBlogs() {
                   </svg>
                 </div>
                 <p className="font-semibold">1.7K</p>
-              </a>
+              </a>*/}
             </div>
           </div>
         </div>
@@ -162,8 +162,8 @@ export default function LatestBlogs() {
               <p className="text-2xl font-bold leading-5">Digital loans for the last mile</p>
             </a>
             <p className="mb-4 text-gray-700">
-              Despite the high prices of buying a bike through hire purchase, the arrangement is
-              wildly popular in the bodaboda industry.
+              Kenya’s boda boda economy is the frontline of entrepreneurship, a source of daily
+              wages for millions, and a proving ground for fintech innovation.
             </p>
             <div className="flex space-x-4">
               <Link
@@ -173,7 +173,7 @@ export default function LatestBlogs() {
               >
                 Read more
               </Link>
-              <a
+              {/*<a
                 href="/"
                 aria-label="Likes"
                 className="flex items-start text-teal-700 transition-colors duration-200 hover:text-teal-500 group"
@@ -195,7 +195,7 @@ export default function LatestBlogs() {
                   </svg>
                 </div>
                 <p className="font-semibold">1.1K</p>
-              </a>
+              </a>*/}
             </div>
           </div>
         </div>

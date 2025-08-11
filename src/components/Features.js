@@ -100,7 +100,7 @@ export default function Features() {
             </p>
           </div>
           <Link
-            to="/savings"
+            to="/feature/savings"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
           >
@@ -164,7 +164,7 @@ export default function Features() {
             </p>
           </div>
           <Link
-            to="/p2plending"
+            to="/feature/peer-to-peer-lending"
             aria-label=""
             className="inline-flex items-center font-semibold transition-colors duration-200 text-teal-700 hover:text-teal-500"
           >

@@ -12,6 +12,8 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+        name: `images`,
+        path: `${__dirname}/static/images`,
         name: `content`,
         path: `${__dirname}/src/content`,
       },

@@ -1,16 +1,13 @@
 import React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/Layout"
-import Seo from "../components/seo"
+import Layout from "../../components/Layout"
+import Seo from "../../components/seo"
 
-export default function PeerLendingPage({ data }) {
-  const { html } = data.file?.childMarkdownRemark
+export default function FeaturePage({ data }) {
+  const { html, frontmatter } = data.markdownRemark
   return (
     <Layout>
-      <Seo
-        title="Clixpesa p2p Loans"
-        description="Borrow and lend at your own terms, with Clixpesa peer to peer loans"
-      />
+      <Seo title={frontmatter.title} description={frontmatter.desc} />
       <div className="bg-teal-50 min-h-screen py-12">
         <div className="max-w-3xl mx-auto px-4">
           {html ? (
@@ -27,15 +24,17 @@ export default function PeerLendingPage({ data }) {
   )
 }
 
-export const pageQuery = graphql`
-  query {
-    file(relativePath: { eq: "peerlending.md" }) {
-      childMarkdownRemark {
-        html
-        frontmatter {
-          title
-        }
+export const query = graphql`
+  query ($id: String!) {
+    markdownRemark(id: { eq: $id }) {
+      id
+      html
+      frontmatter {
+        slug
+        title
+        desc
       }
+      excerpt
     }
   }
 `
