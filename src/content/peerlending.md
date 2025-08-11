@@ -1,3 +1,9 @@
+---
+title: Clixpesa P2P Lending
+desc: Borrow and lend at your own terms, with Clixpesa peer to peer loans
+slug: peer-to-peer-lending
+---
+
 ## Peer to peer lending: Your own terms
 
 68% of loans in the alternative lending market in Africa are peer-to-peer (P2P). With **Clixpesa P2P Lending**, users can **offer** or **request** loans on their own terms — setting amounts, durations, and interest — while Clixpesa Finance helps reduce risk by monitoring credit profiles and only recommending compatible matches.

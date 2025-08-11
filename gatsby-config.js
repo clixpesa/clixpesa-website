@@ -14,15 +14,12 @@ module.exports = {
         path: `${__dirname}/src/images`,
         name: `content`,
         path: `${__dirname}/src/content`,
-        name: `blogs`,
-        path: `${__dirname}/src/blogs`,
       },
     },
     `gatsby-transformer-sharp`,
     `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-postcss`,
-    "gatsby-plugin-mdx",
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

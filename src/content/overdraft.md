@@ -1,3 +1,9 @@
+---
+title: Clixpesa Overdraft
+desc: Finalize that transaction even on low balances
+slug: overdraft
+---
+
 ## Jazisha: Transact even on low balances
 
 **Jazisha** is an overdraft product built for that behaviour: it lets users temporarily overdraw their Clixpesa wallet (up to **\$100**) so they can complete purchases without making a formal loan request. Users pay a low access fee plus a small daily service charge, then repay when they top up — their limit is replenished for the next transaction.

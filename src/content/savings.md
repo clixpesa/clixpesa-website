@@ -1,3 +1,9 @@
+---
+title: Clixpesa Savings
+desc: Earn yield with your stables daily
+slug: savings
+---
+
 ## Clixpesa Savings
 
 Clixpesa’s savings feature continuously optimizes your savings to get the best net yield while keeping safety front and center. Everyday our system runs a full evaluation of the supported protocols and — only when it’s worthwhile after fees and risk — reallocates funds to improve the pools net return.

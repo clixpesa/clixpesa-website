@@ -1,3 +1,9 @@
+---
+title: Clixpesa Roscas
+desc: "How Clixpesa is Digitizing Chamas: The Future of RoSCAs"
+slug: roscas
+---
+
 ## Digitizing Chamas: The Future of RoSCAs
 
 Chamas, also known as Rotating Savings and Credit Associations (RoSCAs), have long been a cornerstone of communal finance across many cultures. They empower groups of people to pool resources, save together, and provide mutual financial support.
